@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-refresher",
+  "version": "1.0.0",
+  "description": "This is a refresher on nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cowsay": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.8",
+    "path": "^0.12.7",
+    "progress": "^2.0.3",
+    "prompt-sync": "^4.2.0",
+    "readline": "^1.3.0"
+  },
+  "optionalDependencies": {
+    "colors": "^1.4.0"
+  }
+}
